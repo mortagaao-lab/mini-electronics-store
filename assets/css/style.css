@@ -1,0 +1,259 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+    margin: 0;
+    direction: rtl;
+}
+
+.navbar {
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    margin: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.container {
+    width: 85%;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.form-box {
+    max-width: 450px;
+    margin: auto;
+}
+
+.form-box h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.form-box label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 7px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.form-box button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-box button:hover {
+    background-color: #219150;
+}
+
+.error {
+    background-color: #ffe0e0;
+    color: #b00020;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.success {
+    background-color: #e0ffe8;
+    color: #176b2c;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: #ecf0f1;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.data-table th,
+.data-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.data-table th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    margin: 3px;
+    font-size: 14px;
+}
+
+.btn.edit {
+    background-color: #2980b9;
+}
+
+.btn.delete {
+    background-color: #c0392b;
+}
+
+.btn.secondary {
+    background-color: #7f8c8d;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-box select,
+.form-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 7px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+}
+
+.wide-form {
+    max-width: 650px;
+}
+
+.product-preview {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.table-img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.product-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.product-card h3 {
+    color: #2c3e50;
+    margin-top: 15px;
+}
+
+.product-card p {
+    color: #555;
+    font-size: 15px;
+}
+
+.small-btn {
+    padding: 6px 10px;
+    border: none;
+    background-color: #27ae60;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.data-table select {
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.order-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login-link {
+    display: block;
+    background-color: #2980b9;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.out-text {
+    color: #c0392b;
+    font-weight: bold;
+}
