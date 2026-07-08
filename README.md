@@ -43,6 +43,6 @@ http://localhost/mini_store/
 البريد الإلكتروني: baraa@test.com  
 كلمة المرور: 123456  
 
-## اسم الطالبة
+## اسم الطالب
 
 Omar Murtaja
